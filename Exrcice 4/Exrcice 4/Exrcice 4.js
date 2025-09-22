@@ -14,10 +14,11 @@ switch (opra) {
         alert ("natija:"+ (+nomber1* +nomber2));
         break;
     case "/":
-        if (nomber2===0){
-            alert ("WLO 7NA MBGHINAX N9SMOHALK")
+        if (nomber2 != 0){
+            alert (nomber1 / nomber2);
+        } else {
+            alert("Kayn Error :(")
         }
-        alert ("natija:"+ (+nomber1/ +nomber2));
         break;
     default: 
     alert (" HADXI MA9RINAHX ")
