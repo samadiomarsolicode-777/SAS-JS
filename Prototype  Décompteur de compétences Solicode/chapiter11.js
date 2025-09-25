@@ -24,6 +24,9 @@ while (true) {
         alert ("Collaboration & posture professionnelle")
     } else if (prototyp === "C11") {
         alert ("Gérer un projet avec Git & GitHub")
-    } 
+    } else {
+        alert ("sf sir t9di 7aja")
+        break;
+    }
     }
     
