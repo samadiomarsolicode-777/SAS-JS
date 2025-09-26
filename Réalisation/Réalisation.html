@@ -27,7 +27,7 @@ for (let i = 0; i < qr.length; i++) {
   const reponse = prompt("Quel est le code pour : " + q.name + " ?");
 
   if (reponse === null) {
-    alert ("Fin du jeu ! Score final : " + score + " / " + counter);
+    console.log("Fin du jeu ! Score final : " + score + " / " + counter);
     break;
   }
 
@@ -35,12 +35,12 @@ for (let i = 0; i < qr.length; i++) {
 
   if (reponse.toUpperCase() === q.code.toUpperCase()) {
     score++;
-    alert ("✅ Correct ! " + q.name + " → " + q.code);
+    console.log("✅ Correct ! " + q.name + " → " + q.code);
   } else {
-    alert("❌ Faux ! La bonne réponse était : " + q.code);
+    console.log("❌ Faux ! La bonne réponse était : " + q.code);
   }
 } 
-alert ("📊 Score actuel : " + score + " / " + counter);
+console.log("📊 Score actuel : " + score + " / " + counter);
     </script>
 </body>
 </html>
