@@ -25,8 +25,14 @@ while (true) {
     } else if (prototyp === "C11") {
         alert ("Gérer un projet avec Git & GitHub")
     } else {
+<<<<<<< HEAD
         alert ("mkayn ta 7aja sir t9di 7aja")
         break;
+    }
+=======
+        alert ("Cette compétence n'existe pas")
+        break;
+>>>>>>> c70d78cc17d137e04834337bd2e901c210159893
     }
     }
     
